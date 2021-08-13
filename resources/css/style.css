@@ -15,7 +15,6 @@ header {
 header h1 {
   font-size: 5em;
   color: #55E31B;
-  font-weight: bold;
   font-family: 'Lobster', cursive;
 }
 nav {
@@ -42,7 +41,6 @@ nav a {
   color: #E33DD5;
   font-size: 3rem;
   line-height: 6rem;
-  font-weight: bold;
   font-family: 'Anton', sans-serif;
 }
 
@@ -66,13 +64,24 @@ nav a {
   text-align: center;
   line-height: 6rem;
   font-size: 3rem;
-  font-weight: bold;
   font-family: 'Anton', sans-serif;
 }
 
 footer {
   background-color: #E33DD5;
-  height: 500px;
   color: #55E31B;
   
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 6rem;
+  font-family: 'Anton', sans-serif;
+}
+footer p {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 4rem;
+  font-family: 'Lobster', cursive;
 }
