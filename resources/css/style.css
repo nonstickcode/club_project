@@ -8,13 +8,15 @@ header {
   flex-direction: column;
   height: auto;
   margin: 30px 2% 0;
+  
 }
  
 
 header h1 {
-  border: 1px solid red;
   font-size: 5em;
   color: #55E31B;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
 }
 nav {
   background-color: #E3C449 ;
@@ -29,7 +31,7 @@ nav a {
   border: 1px solid black;
 }
 .main_sect {
-  margin: 0 2%;
+  margin: 50px 2%;
 }
 .locations {
   background-color: #272FE3;
@@ -40,6 +42,8 @@ nav a {
   color: #E33DD5;
   font-size: 3rem;
   line-height: 6rem;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
 }
 
 .three_img_group {
@@ -52,11 +56,7 @@ nav a {
   height: 100%;
   padding: 3px;
   background-color: khaki;
-  margin: -30px 0 30px;
-  
-  
-  
-  
+  margin: 0 0 30px;
 }
 .goal {
   background-color: #55E31B;
@@ -66,5 +66,13 @@ nav a {
   text-align: center;
   line-height: 6rem;
   font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
 }
 
+footer {
+  background-color: #E33DD5;
+  height: 500px;
+  color: #55E31B;
+  
+}
