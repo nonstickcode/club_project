@@ -52,13 +52,14 @@ nav a {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
   
 }
 .three_img_group img {
-  border: 1px solid red;
+  background-color: #E3C449;
+  padding: 3%;
   display: flex;
-  width: 100%;
+  width: 94%;
   height: auto;
   
 }
@@ -95,18 +96,25 @@ footer p {
   font-weight: 500;
 }
 
+/* Screen size below 600px */
+
 @media only screen and (max-width:600px) {
   .three_img_group {
     flex-direction: column;
+    padding: 0 2%;
+
+    
     
   }
   .three_img_group figure {
     flex-direction: row;
     width: 100%;
+    margin: 1% 0;
+    
   }
   .three_img_group img {
     width: 60%;
-    height: auto;
+    height: 100%;
   }
 
 }
