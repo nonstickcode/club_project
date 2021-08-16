@@ -30,7 +30,7 @@ nav a {
   border: 1px solid black;
 }
 .main_sect {
-  margin: 50px 2%;
+  margin: 50px 0;
 }
 .locations {
   background-color: #272FE3;
@@ -43,19 +43,26 @@ nav a {
   line-height: 6rem;
   font-family: 'Anton', sans-serif;
 }
-
 .three_img_group {
+  border: 1px solid red;
+  display: inline-flex;
+  justify-content: center;
+}
+.three_img_group figure {
+  border: 1px solid red;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  width: 25%;
+  
+}
+.three_img_group img {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  height: auto;
+  
 }
 
-.three_img_group img {
-  width: 27%;
-  height: 100%;
-  padding: 3px;
-  background-color: khaki;
-  margin: 0 0 30px;
-}
 .goal {
   background-color: #55E31B;
 }
@@ -78,10 +85,29 @@ footer h2 {
   font-size: 3rem;
   line-height: 6rem;
   font-family: 'Anton', sans-serif;
+  font-weight: 500;
 }
 footer p {
   text-align: center;
   font-size: 2rem;
   line-height: 4rem;
   font-family: 'Lobster', cursive;
+  font-weight: 500;
 }
+
+@media only screen and (max-width:600px) {
+  .three_img_group {
+    flex-direction: column;
+    
+  }
+  .three_img_group figure {
+    flex-direction: row;
+    width: 100%;
+  }
+  .three_img_group img {
+    width: 60%;
+    height: auto;
+  }
+
+}
+  
