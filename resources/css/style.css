@@ -1,5 +1,5 @@
 body {
-  background-color: #8A32E3;
+  
 }
 header {
   background-color: #E33DD5;
@@ -7,15 +7,13 @@ header {
   text-align: center;
   flex-direction: column;
   height: auto;
-  margin: 30px 2% 0;
-  
+  margin-top: 10px;
 }
- 
-
 header h1 {
   font-size: 5em;
   color: #55E31B;
   font-family: 'Lobster', cursive;
+  padding: 0 10%;
 }
 nav {
   background-color: #E3C449 ;
@@ -29,62 +27,54 @@ nav a {
   height: 50px;
   border: 1px solid black;
 }
-.main_sect {
-  margin: 50px 0;
-}
 .locations {
   background-color: #272FE3;
-  
+  color: #E33DD5; 
+  border: 1px solid #272FE3;
 }
 .locations h2 {
   text-align: center;
-  color: #E33DD5;
   font-size: 3rem;
-  line-height: 6rem;
   font-family: 'Anton', sans-serif;
 }
 .three_img_group {
-  border: 1px solid red;
   display: inline-flex;
   justify-content: center;
 }
 .three_img_group figure {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
-  width: 30%;
-  
+  width: 25%;
 }
 .three_img_group img {
   background-color: #E3C449;
   padding: 3%;
   display: flex;
   width: 94%;
-  height: auto;
-  
+  height: auto; 
 }
-
 .goal {
   background-color: #55E31B;
+  color: #272FE3;
+  border: 1px solid #55E31B;
 }
 .goal h2 {
-  color: #272FE3;
-  text-align: center;
-  line-height: 6rem;
+  text-align: center; 
   font-size: 3rem;
   font-family: 'Anton', sans-serif;
+  padding: 0 10%;
 }
-
 footer {
   background-color: #E33DD5;
   color: #55E31B;
+  border: 1px solid #E33DD5;
+  
   
 }
-
 footer h2 {
   text-align: center;
   font-size: 3rem;
-  line-height: 6rem;
+  
   font-family: 'Anton', sans-serif;
   font-weight: 500;
 }
@@ -96,26 +86,34 @@ footer p {
   font-weight: 500;
 }
 
+figcaption {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+
+}
+
 /* Screen size below 600px */
 
 @media only screen and (max-width:600px) {
   .three_img_group {
     flex-direction: column;
     padding: 0 2%;
-
-    
-    
   }
   .three_img_group figure {
     flex-direction: row;
     width: 100%;
     margin: 1% 0;
-    
   }
   .three_img_group img {
     width: 60%;
     height: 100%;
   }
-
+  figcaption {
+    align-self: center;
+    padding: 0 2%;
+    
+  
+  }
 }
   
