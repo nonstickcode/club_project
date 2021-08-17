@@ -39,20 +39,20 @@ nav a {
 }
 .three_img_group {
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  
 }
 .three_img_group figure {
   display: flex;
   flex-direction: column;
-  width: 25%;
-  border: 1px solid red;
+  
 }
 .three_img_group img {
   background-color: #E3C449;
   padding: 3%;
   display: flex;
   width: 94%;
-  height: auto; 
+   
 }
 .goal {
   background-color: #55E31B;
@@ -94,7 +94,7 @@ figcaption {
 
 }
 
-/* Screen size below 600px */
+/* Screen size below 600px width */
 
 @media only screen and (max-width:600px) {
   .three_img_group {
